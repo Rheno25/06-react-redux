@@ -15,5 +15,5 @@ export const naikTurunSlice = createSlice({
     },
 });
 
-export const ( tambahCounter, kurangCounter ) = naikTurunSlice.actions;
+export const { tambahCounter, kurangCounter } = naikTurunSlice.actions;
 export default naikTurunSlice.reducer;
